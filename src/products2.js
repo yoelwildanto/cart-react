@@ -1,12 +1,12 @@
-import p1 from "../asset/1.png";
-import p2 from "../asset/2.png";
-import p3 from "../asset/3.png";
-import p4 from "../asset/4.png";
-import p5 from "../asset/5.png";
-import p6 from "../asset/6.png";
-import p7 from "../asset/7.png";
-import p8 from "../asset/8.png";
-import p9 from "../asset/9.png";
+import p1 from "./asset/1.png";
+import p2 from "./asset/2.png";
+import p3 from "./asset/3.png";
+import p4 from "./asset/4.png";
+import p5 from "./asset/5.png";
+import p6 from "./asset/6.png";
+import p7 from "./asset/7.png";
+import p8 from "./asset/8.png";
+import p9 from "./asset/9.png";
 
 
 export const PRODUCTS = [
