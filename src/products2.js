@@ -12,7 +12,7 @@ import p9 from "./asset/9.png";
 export const PRODUCTS = [
     {
         id: 1,
-        productName: "timbangan",
+        productName: "Timbangan",
         price: 200.0,
         image: p1
     },

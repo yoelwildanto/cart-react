@@ -35,6 +35,15 @@
   text-align: center;
 }
 
+.name{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.harga{
+  font-weight: 500;
+}
+
 .product:hover {
   transition: 0.3s ease-in;
   cursor: pointer;
