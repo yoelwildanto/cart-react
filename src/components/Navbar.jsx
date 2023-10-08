@@ -7,7 +7,7 @@ import { NavCart } from "./navbarCart";
 import "./navbar.css";
 
 export const Navbar = () => {
-  const { cartItems, updateCartItemCount, getTotalCartAmount} = useContext(ShopContext)
+  const { cartItems, getTotalCartAmount} = useContext(ShopContext)
   const total =Object.values(cartItems)
   const sum=total.reduce((sum, item) => sum + item,0)
   const totalAmount = getTotalCartAmount();

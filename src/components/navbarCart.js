@@ -5,7 +5,7 @@ import {BsTrash} from "react-icons/bs"
 
 export const NavCart = (props) =>{
     const { id, productName, price, image } = props.data;
-    const { cartItems, addToCart, removeFromCart, } =
+    const { cartItems, removeFromCart, } =
       useContext(ShopContext);
 
       const cartItemCount = cartItems[id];
