@@ -3,6 +3,7 @@ import { ShopContext } from "../../context/shop-context";
 import { PRODUCTS } from "../../products2";
 import { CartItem } from "./cart-item";
 import { useNavigate } from "react-router-dom";
+import { FormatRupiah } from "@arismun/format-rupiah";
 
 import "./cart.css";
 export const Cart = () => {
@@ -26,7 +27,7 @@ export const Cart = () => {
 
       {totalAmount > 0 ? (
         <div className="checkout">
-          <p> Subtotal: ${totalAmount} </p>
+          <p> Subtotal: <FormatRupiah value={totalAmount}/> </p>
           <button onClick={() => navigate("/")}> Continue Shopping </button>
           <button
             onClick={() => {

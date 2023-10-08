@@ -13,49 +13,49 @@ export const PRODUCTS = [
     {
         id: 1,
         productName: "Timbangan",
-        price: 200.0,
+        price: 300000,
         image: p1
     },
     {
         id: 2,
         productName: "tv",
-        price: 999.0,
+        price: 1850000,
         image: p2
     }, {
         id: 3,
         productName: "tv2",
-        price: 500.0,
+        price: 2500000,
         image:p3
     }, {
         id: 4,
         productName: "tv3",
-        price: 800.0,
+        price: 3000000,
         image:p4
     }, {
         id: 5,
         productName: "tv4",
-        price: 700.0,
+        price: 3400000,
         image:p5
     }, {
         id: 6,
         productName: "tv5",
-        price: 650.0,
+        price: 4753000,
         image:p6
     }, {
         id: 7,
         productName: "tv6",
-        price: 850.0,
+        price: 5753000,
         image:p7
     }, {
         id: 8,
         productName: "tv7",
-        price: 999.0,
+        price: 6353000,
         image:p8
     },
     {
         id: 9,
         productName: "headphone",
-        price: 750.0,
+        price: 2753000,
         image:p9
     },
 ]

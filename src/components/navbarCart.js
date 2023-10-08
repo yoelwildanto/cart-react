@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../context/shop-context";
 import {BsTrash} from "react-icons/bs"
+import { FormatRupiah } from "@arismun/format-rupiah";
 // import {Link} from "react-router-dom"
 
 export const NavCart = (props) =>{
@@ -21,7 +22,7 @@ export const NavCart = (props) =>{
           </p>
           </div>
           <div className="cartItem-harga">
-          <p> Price: ${price}</p>
+          <p> Price: <FormatRupiah value={price}/></p>
           <p>Qty: {cartItemCount}</p>
           </div>
           {/* <Link to={"/cart"} className="submit"> Bayar </Link> */}

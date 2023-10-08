@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ShopContext } from "../../context/shop-context";
+import { FormatRupiah } from "@arismun/format-rupiah";
 
 export const CartItem = (props) => {
   const { id, productName, price, image } = props.data;
@@ -13,7 +14,7 @@ export const CartItem = (props) => {
         <p>
           <b>{productName}</b>
         </p>
-        <p> Price: ${price}</p>
+        <p> Price: <FormatRupiah value={price}/></p>
         <div className="countHandler">
           <button onClick={() => removeFromCart(id)}> - </button>
           <input

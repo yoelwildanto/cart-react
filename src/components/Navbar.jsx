@@ -4,6 +4,7 @@ import { ShoppingCart } from "phosphor-react";
 import { PRODUCTS } from "../products2";
 import { ShopContext } from "../context/shop-context";
 import { NavCart } from "./navbarCart";
+import { FormatRupiah } from "@arismun/format-rupiah";
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -29,7 +30,7 @@ export const Navbar = () => {
             return <NavCart data={product} />;
           }
            })} 
-           <h3 className="total"> Total: ${totalAmount}</h3>
+           <h3 className="total"> Total: <FormatRupiah value={totalAmount}/></h3>
            <Link to={"/cart"} className="submit">
            <div className="bayar">        
            Bayar
