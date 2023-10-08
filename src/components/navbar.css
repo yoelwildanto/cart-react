@@ -39,7 +39,7 @@
 }
 
 .dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -66,12 +66,12 @@
 
 
 .dropdown-content{
-  width: 300px;
+  width: 350px;
   border-radius: 20px;
 }
 
 .cartItem-drop{
-  width: 200px;
+  width: 190px;
   display: flex;
   /* border: 1px solid black; */
   margin: 10px 0px;
@@ -111,13 +111,16 @@
 
 .cartItem-name{
   width: 150px;
+  font-size: 12px;
   margin-left: 10px;
   margin-top: 20px;
 }
 
 .cartItem-harga{
   margin-left: 30px;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 5px;
 }
 
 .bayar{
@@ -165,6 +168,7 @@
 .cartItem-harga{
   /* margin-left: 30px; */
   font-size: 10px;
+  
 }
 
 .cartItem-drop img{
