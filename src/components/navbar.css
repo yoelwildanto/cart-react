@@ -148,7 +148,7 @@
 }
 
 .cartItem-drop{
-  width: 160px;
+  width: 210px;
   display: flex;
   /* border: 1px solid black; */
   margin: 10px 0px;
@@ -175,8 +175,8 @@
 
 .description-drop {
   display: flex;
-  flex-direction: row;
-  width: 100px;
+  flex-direction: column;
+  width: 140px;
 }
 
 .description-drop p{
